@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #1a1a1a;
+            color: aliceblue;
+            text-align: center;
+        }
+        .highlight{
+            background-color: yellow;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Dom Fun Examples</h1>
+
+    <!-- 1 Accessing DOM -->
+     <section id="example-1">
+        <h2>Accessing DOM Elements</h2>
+        <p id="myParagraph">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quo!
+        </p>
+        <button id="changeTextButton">Change Text</button>
+
+     </section>
+
+     <!-- Example 2 -->
+     <section id="example-2">
+        <h2>Traversing the DOM</h2>
+        <ul id="citiesList">
+            <li class="newww">New York</li>
+            <li>Tokyo</li>
+            <li>Paris</li>
+            <li>London</li>
+     </ul>
+        <button id="highlightFirstCity">Highlight First City</button>
+
+     </section>
+     <!-- Example 3 -->
+     <section id="example-3">
+        <h2>Manipulating DOM Elements</h2>
+       <div id="coffeeOrder">Order: <span id="coffeeType">Latte</span></div>
+        <button id="changeOrder ">Change Order to Espresso</button>
+     </section>
+     
+    <script src="./dom.js"></script>
+    <!-- <script defer src="./dom.js"></script> laded only when dom is loaded as a whole--> 
+</body>
+</html>
